@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Leitura",
+            "request": "launch",
+            "mainClass": "Leitura",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
             "name": "Condicional",
             "request": "launch",
             "mainClass": "Condicional",
