@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Condicional",
+            "request": "launch",
+            "mainClass": "Condicional",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "name": "Executar Testes",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "SeuProjeto",
+            "args": [],
+            "preLaunchTask": "Testes com Tempo"
+        },
+        {
+            "name": "Testes com Tempo",
+            "type": "shell",
+            "command": "powershell.exe -Command \"Measure-Command { java -cp .:${env:CLASSPATH} org.junit.runner.JUnitCore $(basename \"${file}\") }\"",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
