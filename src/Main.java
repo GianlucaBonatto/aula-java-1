@@ -8,10 +8,15 @@ public class Main {
         
         // boolean incluidoNoPlano = true;
         // System.out.println(incluidoNoPlano);
-
+        
         // NOTA DO FILME
         // double notaDoFilme = 8.1;
         // System.out.println(notaDoFilme); 
+
+        double media = (8.5 + 6.3 + 7.2) /3;
+        System.out.println("Media do filme: " + media);
+        // System.out.println(media); Media do filme, mas eu botei ali em cima para roda do lado.
+
         
         String sinopse;
         sinopse = """
@@ -19,7 +24,14 @@ public class Main {
                 Falam que é bom, mas nunca vi e é isso msm.
                 Nota do filme: 8.1
                 """;
-        System.out.println(sinopse);                
+        System.out.println(sinopse);  
+        
+        int classificacao;
+        classificacao = (int) (media /2);
+        System.out.println("Estrelas: " + classificacao);
+
+
+        System.out.println("Todos os dados são tirados da minha cabeça");
     }
 }
 
