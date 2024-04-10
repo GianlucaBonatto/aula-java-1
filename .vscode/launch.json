@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exercicioAdivinhacao",
+            "request": "launch",
+            "mainClass": "exercicioAdivinhacao",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio",
+            "request": "launch",
+            "mainClass": "exercicio",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
             "name": "Loop",
             "request": "launch",
             "mainClass": "Loop",
