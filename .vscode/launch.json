@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exBanco",
+            "request": "launch",
+            "mainClass": "exBanco",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
             "name": "exercicioAdivinhacao",
             "request": "launch",
             "mainClass": "exercicioAdivinhacao",
