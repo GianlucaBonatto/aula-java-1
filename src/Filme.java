@@ -11,6 +11,7 @@ public class Filme {
         System.out.println("Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println("Duração do filme: " + duracaoEmMinutos);
+        System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
     void avalia (double nota) {

@@ -11,6 +11,6 @@ public class Principal {
        meuFilme.avalia(6);
        System.out.println(meuFilme.somaDasAvaliacoes);
        System.out.println(meuFilme.totalDeAvaliacoes);
-       System.out.println(meuFilme.pegaMedia());
+       System.out.println("Média de avalições do filme: " + meuFilme.pegaMedia());
     }
 }
