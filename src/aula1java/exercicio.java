@@ -1,3 +1,4 @@
+package aula1java;
 public class exercicio {
   public static void main(String[] args) {
     int contador = 1;
