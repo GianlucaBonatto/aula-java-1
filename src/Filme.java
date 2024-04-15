@@ -1,7 +1,7 @@
-package aula1java;
+
 public class Filme {
 
-    String nome;
+    public String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
@@ -12,19 +12,19 @@ public class Filme {
         return totalDeAvaliacoes;
     }
 
-    void exibeFichaTecnica () {
+    public void exibeFichaTecnica () {
         System.out.println("Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println("Duração do filme: " + duracaoEmMinutos);
         System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
-    void avalia (double nota) {
+    public void avalia (double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes ++;
     }
 
-    double pegaMedia () {
+    public double pegaMedia () {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 

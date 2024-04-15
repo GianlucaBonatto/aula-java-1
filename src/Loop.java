@@ -1,4 +1,4 @@
-package aula1java;
+
 import java.util.Scanner;
 
 public class Loop {
