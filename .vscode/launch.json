@@ -4,6 +4,13 @@
             "type": "java",
             "name": "Principal",
             "request": "launch",
+            "mainClass": "br.com.alura.screenmatch.filmes.Principal",
+            "projectName": "aula1-java_5701893a"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
             "mainClass": "aula1java.Principal",
             "projectName": "aula1-java_5701893a"
         },
