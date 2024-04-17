@@ -15,5 +15,13 @@ public class Principal {
     System.out.println(meuFilme.getPegamedia());
     //   System.out.println("Média de avalições do filme: " + meuFilme.getPegamedia());
     //   System.out.println("Soma das avaliações: " + meuFilme.somaDasAvaliacoes);
+
+    Serie serie = new Serie();
+        serie.setNome ("Alguma coisa");
+        serie.setAnoDeLancamento(2020);
+        serie.exibeFichaTecnica();
+        serie.setTemporadas(10);
+        serie.setEpisodiosPorTemporada (10);
+        serie.setMinutosPorEpisodio(30);
     }
 }
