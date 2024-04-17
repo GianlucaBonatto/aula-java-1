@@ -6,12 +6,14 @@ public class Principal {
         meuFilme.setAnoDeLancamento(1980);
         meuFilme.setDuracaoEmMinutos(120);
 
-    //    meuFilme.exibeFichaTecnica();
-    //    meuFilme.avalia(8);
-    //    meuFilme.avalia(7);
-    //    meuFilme.avalia(6);
-    //    System.out.println("Soma das avaliações: " + meuFilme.somaDasAvaliacoes);
-       System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
-    //    System.out.println("Média de avalições do filme: " + meuFilme.pegaMedia());
+       meuFilme.exibeFichaTecnica();
+       meuFilme.avalia(8);
+       meuFilme.avalia(7);
+       meuFilme.avalia(6);
+    
+    System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+    System.out.println(meuFilme.getPegamedia());
+    //   System.out.println("Média de avalições do filme: " + meuFilme.getPegamedia());
+    //   System.out.println("Soma das avaliações: " + meuFilme.somaDasAvaliacoes);
     }
 }

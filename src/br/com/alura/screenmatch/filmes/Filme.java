@@ -22,6 +22,20 @@ public class Filme {
         return somaDasAvaliacoes;
     }
     
+    public void avalia (double nota) {
+        somaDasAvaliacoes += nota;
+        totalDeAvaliacoes ++;
+     }
+      
+
+    private double pegaMedia () {
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
+    double getPegamedia () {
+        return pegaMedia () ;
+    }
+
     public void setNome (String nome) {
         this.nome = nome;
     }
@@ -39,20 +53,11 @@ public class Filme {
     }
 
 
-    // private void exibeFichaTecnica () {
-    //     System.out.println("Filme: " + nome);
-    //     System.out.println("Ano de lançamento: " + anoDeLancamento);
-    //     System.out.println("Duração do filme: " + duracaoEmMinutos);
-    //     System.out.println("Incluído no plano: " + incluidoNoPlano);
-    // }
-
-    // private void avalia (double nota) {
-    //     somaDasAvaliacoes += nota;
-    //     totalDeAvaliacoes ++;
-    // }
-
-    // private double pegaMedia () {
-    //     return somaDasAvaliacoes / totalDeAvaliacoes;
-    // }
+    public void exibeFichaTecnica () {
+        System.out.println("Filme: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+        System.out.println("Duração do filme: " + duracaoEmMinutos);
+        System.out.println("Incluído no plano: " + incluidoNoPlano);
+    }
 
 }
