@@ -25,7 +25,10 @@ public class Titulo {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes ++;
      }
-      
+
+     public int getduracaoEmMinutos () {
+        return duracaoEmMinutos;
+     }
 
     private double pegaMedia () {
         return somaDasAvaliacoes / totalDeAvaliacoes;

@@ -5,11 +5,12 @@ public class Principal {
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1980);
         meuFilme.setDuracaoEmMinutos(120);
-
+        
        meuFilme.exibeFichaTecnica();
        meuFilme.avalia(8);
        meuFilme.avalia(7);
        meuFilme.avalia(6);
+    //    System.out.println("Duração do filme em minutos " + meuFilme.getduracaoEmMinutos());
     
     System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
     System.out.println(meuFilme.getPegamedia());
@@ -23,5 +24,6 @@ public class Principal {
         serie.setTemporadas(10);
         serie.setEpisodiosPorTemporada (10);
         serie.setMinutosPorEpisodio(30);
+        System.out.println("Duração total em minutos " + serie.getduracaoEmMinutos());
     }
 }
