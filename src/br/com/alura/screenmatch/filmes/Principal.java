@@ -1,4 +1,7 @@
 package br.com.alura.screenmatch.filmes;
+
+import br.com.alura.screenmatch.calculos.calculadoraDetempo;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
@@ -25,5 +28,10 @@ public class Principal {
         serie.setEpisodiosPorTemporada (10);
         serie.setMinutosPorEpisodio(30);
         System.out.println("Duração total em minutos " + serie.getduracaoEmMinutos());
+
+        calculadoraDetempo calculadora = new calculadoraDetempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(serie);
+        System.out.println(calculadora.getTempoTotal());
     }
 }
